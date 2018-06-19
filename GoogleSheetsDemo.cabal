@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f0dea35549d9f1379b3e198755fb5c11fc543b81b1bbcf078cf8d35c0bf85b7d
+-- hash: e02bd589ac49513568e5cb727f66c2da52e0751e7167ce5a6c9ae3270292234a
 
 name:           GoogleSheetsDemo
 version:        0.1.0.0
@@ -39,6 +39,7 @@ library
     , http-types >=0.12.1
     , open-browser >=0.2.1.0
     , text >=1.2.3.0
+    , transformers >=0.5.2.0
     , yaml >=0.8.30
   exposed-modules:
       Lib
@@ -63,6 +64,7 @@ executable GoogleSheetsDemo-exe
     , http-types >=0.12.1
     , open-browser >=0.2.1.0
     , text >=1.2.3.0
+    , transformers >=0.5.2.0
     , yaml >=0.8.30
   other-modules:
       Paths_GoogleSheetsDemo
@@ -86,6 +88,7 @@ test-suite GoogleSheetsDemo-test
     , http-types >=0.12.1
     , open-browser >=0.2.1.0
     , text >=1.2.3.0
+    , transformers >=0.5.2.0
     , yaml >=0.8.30
   other-modules:
       Paths_GoogleSheetsDemo
